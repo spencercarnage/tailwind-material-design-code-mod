@@ -1,0 +1,18 @@
+{
+  "name": "tailwind-material-design-code-mod",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "analyze-class-names": "node ./analyzeClassNames.mjs --dir src/components",
+    "map-configs": "node ./mapConfigs.mjs --legacy tailwind.config.js --updated tailwind.config.mjs",
+    "transform-dry": "npx jscodeshift -t ./transform.mjs ./src/components -d",
+    "transform": "npx jscodeshift -t ./transform.mjs ./src/components"
+  },
+  "keywords": [],
+  "author": "Spencer Carnage",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "jscodeshift": "^0.15.2"
+  }
+}
