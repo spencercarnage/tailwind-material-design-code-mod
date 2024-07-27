@@ -3,7 +3,8 @@
 This is an example of how to use jscodeshift to change the Tailwind
 class names in a React code base. It was a very specific problem 
 I had solved in early 2024 as part of a large refactor to an existing 
-project. See this blog post for more details.
+project. [See this blog post for more
+details.](https://spencercarnage.com/blog/updating-1000-react-components-with-jscodeshift/)
 
 The following scripts are available:
 
